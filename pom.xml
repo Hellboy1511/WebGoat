@@ -84,11 +84,7 @@
             <organizationUrl>https://github.com/dougmorato</organizationUrl>
             <timezone>America/New_York</timezone>
             <properties>
-                <picUrl>https://avatars2.githubusercontent.com/u/9654?v=3&amp;s=150</picUrl>
-                <sonar.organization>hellboy1511</sonar.organization>
-                <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-                <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
-                <skipTests>true</skipTests>
+
 
             </properties>
         </developer>
@@ -140,6 +136,11 @@
         <thymeleaf.version>3.0.14.RELEASE</thymeleaf.version>
         <pmd.version>3.15.0</pmd.version>
         <checkstyle.version>3.1.2</checkstyle.version>
+        <picUrl>https://avatars2.githubusercontent.com/u/9654?v=3&amp;s=150</picUrl>
+        <sonar.organization>hellboy1511</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
+        <skipTests>true</skipTests>
     </properties>
 
     <modules>
